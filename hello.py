@@ -1,0 +1,1 @@
+print("first python file in github,in my cuurent repo")
