@@ -3,5 +3,5 @@ Input=input("Enter string value:")
 count=0
 for i in Input:
     print(i)
-    count+=1
+    count=count+1  #This tells the length of string without using len() function
 print("Length of string is:",count)
