@@ -2,7 +2,7 @@
 num=int(input("Enter any number: "))
 while num>=0:
     print(num)
-    num=num-1
+    num=num-1       #Decrement is done at this point
 print("End of loop")
 
 
