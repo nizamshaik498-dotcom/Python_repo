@@ -2,6 +2,6 @@
 
 num=int(input("Enter any number: "))
 if num %2==0:
-    print(num,"Even number")        #if the number is divisable by 2 then even number if not then odd number.
+    print(num,"Is Even number")        #if the number is divisable by 2 then even number if not then odd number.
 else :
-    print(num,"Odd number")
+    print(num,"Is Odd number")
