@@ -6,6 +6,6 @@ def calculate_area():
     return length, breadth
 
 length, breadth = calculate_area()
-print(f"The length of the rectangle is: {length}")
-print(f"The breadth of the rectangle is: {breadth}")
-print(f"The area of the rectangle is: {length * breadth}")
+print(f"The length of the rectangle is: {length}")          #shows the length
+print(f"The breadth of the rectangle is: {breadth}")        #shows the breadth
+print(f"The area of the rectangle is: {length * breadth}")  #shows the area
