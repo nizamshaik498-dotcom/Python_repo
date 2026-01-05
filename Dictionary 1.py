@@ -9,8 +9,8 @@ products={"Shirts":500,
           "Belts":600,
           }
 product=(input("Enter product name: "))
-if product in products:
-    print(products[product],"Available in store")
+if product in products:                                 #checks if the product is in the dictionary
+    print(products[product],"Available in store")       #prints the price of the product if available
 else:
-    print("Product not available")
+    print("Product not available")                      #prints this is not available
 
