@@ -7,9 +7,9 @@ try:                                                        #used try block to t
     num2=int(input("Enter second value: "))
     result=(num1/num2)
     print("Your answer is:",result)
-except ZeroDivisionError:
+except ZeroDivisionError:                                  #used except block to handle the exception   
     print("Sorry! cant divide with zero")
-except ValueError:
+except ValueError:                                        
     print("please enter value in integer type")
 finally:
     print("Thank you for using this mini divisable calculator")
