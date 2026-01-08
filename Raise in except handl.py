@@ -5,5 +5,5 @@ try:                                                                #used try bl
     if num<=0:                                                      #used if statement to check condition
         raise ValueError("Enter value greater than zero")
     print(num**2)                                                   #used raise statement to raise an exception
-except ValueError as e:
+except ValueError as e:                                             #used except block to handle the exception
     print("Error: ",e)
