@@ -2,6 +2,6 @@
 
 course=["python","java","c"]                    #used list to store values
 for lang in course:                             #used for loop to iterate through the list
-    print("Language:",lang)   
+    print("Language:",lang)                     #print the values in the list            
 print("Python is trending among these in this " \
-    "ai era")                   #print the values in the list
+    "ai era")                   
