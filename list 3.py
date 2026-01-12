@@ -2,4 +2,4 @@
 
 num=[1,2,3,4,5]                                     #used of list to store values
 for calc in num:                                    #for loop to iterate through the list
-    print("Number:",calc,"Square:",calc**2)
+    print("Number:",calc,"Square:",calc**2)         #prints the square of each value in the list
