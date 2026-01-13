@@ -9,5 +9,5 @@ for even in num:
 #program using for loop which prints only odd numbers from the values which are stored in the list
 num=[1,2,3,4,5]
 for odd in num:
-    if odd %2!=0:
+    if odd %2!=0:                              #used if condition to check odd numbers                                  
         print("These are odd num:",odd)
