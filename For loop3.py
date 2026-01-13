@@ -2,7 +2,7 @@
 
 num=[1,2,3,4,5]
 for even in num:
-    if even %2==0:
+    if even %2==0:                                  #used if condition to check even numbers
         print("These are even num:",even)
         
 
