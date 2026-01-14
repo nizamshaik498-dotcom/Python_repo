@@ -7,6 +7,6 @@ for n in nums:
     if n%2==0:
         Even_count +=1                  #incrementing even count by 1
     else:
-        Odd_count +=1
+        Odd_count +=1                   #incrementing odd count by 1
 print("Even count: ",Even_count)
 print("Odd_count: ",Odd_count)
