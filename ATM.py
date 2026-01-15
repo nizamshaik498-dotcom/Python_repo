@@ -11,7 +11,7 @@ else:
     print("2. Withdraw Money")
     print("3. Exit")
 
-    choice=int(input("Choose any option: "))
+    choice=int(input("Choose any option: "))                    #takes input from user
     if choice==1:
         print("Your available balance: ",balance)
     elif choice==2:
