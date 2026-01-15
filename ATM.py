@@ -1,7 +1,7 @@
 #program created using if, else and elif conditions . (ATM mini system)
 
 pin=1234                                  #predefined pin
-balance=5000
+balance=5000                          #predefined balance
 
 atm_pin=int(input("Enter ATM pin: "))                           #takes input from user
 if atm_pin!=pin:
