@@ -3,7 +3,7 @@
 pin=1234
 balance=5000
 
-atm_pin=int(input("Enter ATM pin: "))
+atm_pin=int(input("Enter ATM pin: "))                           #takes input from user
 if atm_pin!=pin:
     print("Incorrect PIN")
 else:
