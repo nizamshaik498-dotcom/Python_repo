@@ -7,7 +7,7 @@ attempts=3
 while attempts>0:                                       #used while loop to give 3 attempts
     name=input("Enter Username: ")
     pin=int(input("Enter Password: "))
-    if name==username and pin==password:
+    if name==username and pin==password:            #condition to check username and password
         print("Login Successfull")
         break
     else:
