@@ -13,7 +13,7 @@ while attempts>0:                                       #used while loop to give
     else:
         attempts=attempts-1
         print("Wrong Credentials")
-        print("Attempts Remaining: ",attempts)  #
+        print("Attempts Remaining: ",attempts)  #displaying remaining attempts
     if attempts==0:                             #condition to check if attempts are over
         print("Account Locked")
 
