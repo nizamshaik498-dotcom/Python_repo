@@ -6,7 +6,7 @@ while attempts>0:                                                       #used wh
     value=int(input("Enter the special number: "))
     if value==7:
         print("You found the special number🥳")
-        break
+        break                                                           #used break statement to exit the loop if user finds the special number
     else:
         attempts=attempts-1
         print("Ahh its not special🥺")
