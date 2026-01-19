@@ -10,7 +10,7 @@ if price>=1000:
     print("Total amount: ",price*quantity)                  #displaying total amount
     print("Discount applied🥳: ",price*quantity/10)        #displays the discount applied
     print("Final amount: ",price*quantity-price/10)         #displays the final amount after discount
-    print(f"Thank you {name} for shopping with us!")          #displays thank you message
+    print(f"Thank you {name} for shopping with us😍!")          #displays thank you message
 else:
     print(product,price,"No discounts applied❌")           #displays no discount applied message
 
