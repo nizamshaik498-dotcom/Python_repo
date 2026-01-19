@@ -6,7 +6,7 @@ quantity=int(input("Enter the quantity: "))
 total=price*quantity                                        #calculating total amount
 
 if price>=1000:
-    print("Total amount: ",price*quantity)
+    print("Total amount: ",price*quantity)                  #displaying total amount
     print("Discount applied🥳: ",price*quantity/10)
     print("Final amount: ",price*quantity-price/10)
 else:
