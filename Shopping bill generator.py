@@ -1,4 +1,5 @@
 #program created using if, else statements and by using arthimetic operators(generates discount while purchase is more than 1000 rupees).
+
 name=input("Enter your name: ")                             #taking user input
 product=input("Enter product name: ")
 price=int(input("Enter the price: "))
