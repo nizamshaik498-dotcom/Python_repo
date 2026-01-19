@@ -8,7 +8,7 @@ total=price*quantity                                        #calculating total a
 if price>=1000:
     print("Total amount: ",price*quantity)                  #displaying total amount
     print("Discount applied🥳: ",price*quantity/10)        #displays the discount applied
-    print("Final amount: ",price*quantity-price/10)
+    print("Final amount: ",price*quantity-price/10)         #displays the final amount after discount
 else:
     print(product,price,"No discounts applied❌")
 
