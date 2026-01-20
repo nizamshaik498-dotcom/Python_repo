@@ -4,7 +4,7 @@ print("Uber Cab Services")
 name=input("Enter Your Name: ")
 address=input("Enter city name you want to travel: ")
 distance=int(input("Enter km: "))
-book_ride=int(input("Confirm to book your ride enter (1): "))
+book_ride=int(input("Confirm to book your ride enter (1): ")) #1 for booking ride
 if book_ride==1:
     print("Ride is booked")
 elif book_ride==1 and distance<=0:
