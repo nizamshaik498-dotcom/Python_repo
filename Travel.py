@@ -29,7 +29,7 @@ elif distance>800 and distance<=1000:
     print(f"Between 850 to 1000 for going to {address}")
     print(f"Enjoy the ride {name}")
 else:
-    print(f"Thanks for trying our services {name}")
+    print(f"Thanks for trying our services {name}")                             #if distance>1000 it prints this message
     print("Sorry but our cab services ranges between 100 to 1000 km only")
 
 
