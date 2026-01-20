@@ -10,7 +10,7 @@ if book_ride==1:
 elif book_ride==1 and distance<=0:
     print("Sorry cant book ride!!! Distance is too low")
 else:
-    print("Ride cancelled")
+    print("Ride cancelled")                                   #cancelling ride if user enters any number other than (1)
 if distance<=0:
     print(" Distance must be greater than (0) km")
 elif distance<=100:
