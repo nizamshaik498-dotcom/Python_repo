@@ -18,7 +18,7 @@ if tickets>5:
 else:
     dicount=0
 
-final_amount=total_amount-discount
+final_amount=total_amount-discount                       #calculating final amount after discount                       
 
 print("-----Movie Ticket Bill-----")                            #whole bill generation
 print("Customer Name: ",name)
