@@ -11,7 +11,7 @@ elif age<=60:
 else:
     price_per_ticket=150
 
-total_amount=price_per_ticket*tickets
+total_amount=price_per_ticket*tickets                     #calculating total amount
 
 if tickets>5:
     discount=total_amount*0.10
