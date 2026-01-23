@@ -7,4 +7,4 @@ quantity=int(input("Enter quantity of fruits: "))       #takes input from user f
 if item in item_price:
     print(item_price[item]*quantity,"Total price")      #calculates total price for the item
 else:
-    print("Not available in store!!!")
+    print("Not available in store!!!")      #if item not found in dictionary it shows not available message 
