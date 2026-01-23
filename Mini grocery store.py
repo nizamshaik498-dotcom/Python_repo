@@ -3,7 +3,7 @@
 print("-----The Fruit Land-----")
 item_price={"apple":50,"mango":100,"watermelon":80,"kiwi":250,"guava":30,"avocado":500}         #used dictionary to store item and price
 item=input("Enter fruit name: ")
-quantity=int(input("Enter quantity of fruits: "))
+quantity=int(input("Enter quantity of fruits: "))       #takes input from user for item and quantity
 if item in item_price:
     print(item_price[item]*quantity,"Total price")
 else:
