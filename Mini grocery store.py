@@ -1,7 +1,7 @@
 #program created using dictionary and made mini grocery store.
 
 print("-----The Fruit Land-----")
-item_price={"apple":50,"mango":100,"watermelon":80,"kiwi":250,"guava":30,"avocado":500}
+item_price={"apple":50,"mango":100,"watermelon":80,"kiwi":250,"guava":30,"avocado":500}         #used dictionary to store item and price
 item=input("Enter fruit name: ")
 quantity=int(input("Enter quantity of fruits: "))
 if item in item_price:
