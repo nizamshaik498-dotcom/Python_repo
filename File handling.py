@@ -7,3 +7,4 @@ with open("users.txt","a") as file:
 print("\n Saved usernames: ")
 with open("users.txt","r") as file:
     print(file.read())
+    
