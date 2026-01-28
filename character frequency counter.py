@@ -1,6 +1,6 @@
 #program created using string methods .(character frequency counter).
 
-query=input("Enter any sentence: ")
+query=input("Enter any sentence: ")         #takes input from user
 lower=0
 upper=0
 digit=0
