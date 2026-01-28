@@ -10,7 +10,7 @@ for n in query:                             #iterating through each character in
         lower+=1
     elif n.isupper():                       #checking for uppercase letters 
         upper+=1
-    elif n.isdigit():
+    elif n.isdigit():                       #checking for digits
         digit+=1
     elif n.isspace():
         space+=1
