@@ -5,7 +5,7 @@ lower=0                                     #initializing counters
 upper=0
 digit=0
 space=0
-for n in query:
+for n in query:                             #iterating through each character in the input
     if n.islower():
         lower+=1
     elif n.isupper():
