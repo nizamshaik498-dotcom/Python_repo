@@ -3,7 +3,7 @@
 num=list(map(int,input("Enter numbers: ").split())) #takes input from user and store in the list
 largest=max(num)                                    #finds the largest number in the list
 smallest=min(num)                                   #finds the smallest number in the list
-average=sum(num)/len(num)
+average=sum(num)/len(num)                           #finds the average of the numbers in the list
 print("The largest number is: ",largest)
 print("The smallest number is: ",smallest)
 print("The average is : ",average)
