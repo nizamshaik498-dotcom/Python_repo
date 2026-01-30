@@ -4,7 +4,7 @@ score=0                                             #initializing score variable
 ans1=input("Who Is The CEO Of Tesla/X/Spacex: ")    #asking user for input
 ans2=input("What Is The Abbrevation Of CEO: ")
 ans3=input("What Is Trade ?: ")
-if ans1.lower()=="elon musk":
+if ans1.lower()=="elon musk":                       #checking the answers
     score+=1
 if ans2.lower()=="chief executive officer":
     score+=1
