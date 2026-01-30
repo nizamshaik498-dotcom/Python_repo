@@ -10,4 +10,4 @@ if ans2.lower()=="chief executive officer":
     score+=1
 if ans3.lower()=="buying and selling":
     score+=1
-print("Your score is : ",score)
+print("Your score is : ",score)                     #printing the score
