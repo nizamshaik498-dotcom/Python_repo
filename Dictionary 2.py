@@ -3,6 +3,6 @@ name=input("Enter name: ")                                                      
 contacts={"nizam":154251,"althaf":567423,"wahid":654786,"mike":367399}              #dictionary to store contacts
 name=name.lower()                                                                   #convert input name to lowercase    
 if name in contacts:
-    print("The mobile number is: ",contacts[name])
+    print("The mobile number is: ",contacts[name])                                  #if name found in contacts print the mobile number
 else:
     print("Person not found")
