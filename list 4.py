@@ -5,7 +5,7 @@ even=0
 odd=0                                                       #initializing even and odd counters
 for num in nums:
     if num%2==0:
-        even+=1
+        even+=1                                             #incrementing even counter
     else:
         odd+=1
 print("Even Numbers: ",even)
