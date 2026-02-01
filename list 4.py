@@ -2,7 +2,7 @@
 
 nums=list(map(int,input("Enter numbers: ").split()))        #list of numbers from user
 even=0
-odd=0
+odd=0                                                       #initializing even and odd counters
 for num in nums:
     if num%2==0:
         even+=1
