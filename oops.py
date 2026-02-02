@@ -1,7 +1,7 @@
 #program made using class and object (oops)
 
 class student:                                             #class name
-    def get(self,name,age):
+    def get(self,name,age):                                #method to get data
         self.name=name
         self.age=age
     def display(self):
