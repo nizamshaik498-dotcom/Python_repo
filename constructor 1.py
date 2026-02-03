@@ -3,7 +3,7 @@ class student:                                  #class name
     def __init__(self):                         #constructor                                
         self.name="christopher"
         self.age=20
-    def call(self):
+    def call(self):                             #method                  
         print(self.name,self.age)
 s1=student()
 s1.call()
