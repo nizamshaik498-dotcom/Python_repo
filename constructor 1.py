@@ -1,5 +1,5 @@
 #program amade using constructor (default constructor)
-class student:
+class student:                                  #class name
     def __init__(self):
         self.name="christopher"
         self.age=20
