@@ -5,6 +5,6 @@ class student:                                  #class name
         self.age=20
     def call(self):                             #method                  
         print(self.name,self.age)
-s1=student()
+s1=student()                                    #object creation                       
 s1.call()
 
