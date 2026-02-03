@@ -1,6 +1,6 @@
 #program amade using constructor (default constructor)
 class student:                                  #class name
-    def __init__(self):
+    def __init__(self):                         #constructor                                
         self.name="christopher"
         self.age=20
     def call(self):
