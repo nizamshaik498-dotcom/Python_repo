@@ -1,6 +1,6 @@
 #program created using constructor(parameterized).
 
-class Student:
+class Student:                                              #class name
     def __init__(self,name,age):
         self.name=name
         self.age=age
