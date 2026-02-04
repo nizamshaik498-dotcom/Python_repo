@@ -3,7 +3,7 @@ class Animal:                           #class Animal
     def speak(self):                    #method speak of class Animal
         print("Animal Sound")
 class Dog(Animal):                      #class Dog inherited from class Animal           
-    def bark(self):
+    def bark(self):                     #method bark of class Dog
         print("Barking sound")
 d=Dog()
 d.speak()
