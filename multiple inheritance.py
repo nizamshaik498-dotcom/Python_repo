@@ -7,9 +7,9 @@ class calculation2:                                             #base class 2
     def subtraction(self,a,b):                                  
         return a-b
 class calculation3:                                             #base class 3       
-    def multiplication(self,a,b):
+    def multiplication(self,a,b):                               
         return a*b
-class derived(calculation1,calculation2,calculation3):
+class derived(calculation1,calculation2,calculation3):          #derived class
     def division(self,a,b):
         return a/b
     
