@@ -3,7 +3,7 @@
 class ceo:                                          #base class
     def ceomethod(self):                            #method of ceo class
         print(("I am the ceo"))
-class manager(ceo):
+class manager(ceo):                                 #derived class of ceo class
     def managermethod(self):
         print("I am manager")
 class employee1(manager,ceo):
