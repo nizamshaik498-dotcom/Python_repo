@@ -7,7 +7,7 @@ class employee1(manager):                       #derived class1
     def employee1method(self):                  #method of derived class1
         print("I am employee1")
 class employee2(manager):                       #derived class2
-    def employee2method(self):
+    def employee2method(self):                  #method of derived class2
         print("I am emloyee2")
 e1=employee1()
 e2=employee2()
