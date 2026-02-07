@@ -9,7 +9,7 @@ class vehicle:                                                              #bas
         print("details: ",self.brand,self.model,self.price)
     def maxspeed(self):                                                     #method to show the max speed of the vehicle
         print("The max speed is over 250")
-    def gearsystem(self):
+    def gearsystem(self):                                                   #method to show the gear system of the vehicle
         print("Manual gear system")
 class car(vehicle):
         def maxspeed(self):
