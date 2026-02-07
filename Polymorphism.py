@@ -3,7 +3,7 @@
 class BMW:                                                      #base class
     def car(self):                                              #method of base class
         print("Byrische Motoren Worke")
-    def model(self):
+    def model(self):                                            #method of base class
         print("M5")
 class Lamborghini:
     def car(self):
