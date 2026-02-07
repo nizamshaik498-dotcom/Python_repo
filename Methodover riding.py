@@ -1,7 +1,7 @@
 #python program created using python overriding method.
 
 class vehicle:                                                              #base class
-    def __init__(self,brand,model,price):
+    def __init__(self,brand,model,price):                                   #constructor
         self.brand=brand
         self.model=model
         self.price=price
