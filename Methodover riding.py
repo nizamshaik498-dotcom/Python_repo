@@ -1,6 +1,6 @@
 #python program created using python overriding method.
 
-class vehicle:
+class vehicle:                                                              #base class
     def __init__(self,brand,model,price):
         self.brand=brand
         self.model=model
