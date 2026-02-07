@@ -12,6 +12,6 @@ class Lamborghini:                                              #derived class
         print("Aventador")
 ob=BMW()
 ob1=Lamborghini()
-for vehicles in(ob,ob1):
+for vehicles in(ob,ob1):                                        #polymorphism
     vehicles.car()
     vehicles.model()
