@@ -5,7 +5,7 @@ class BMW:                                                      #base class
         print("Byrische Motoren Worke")
     def model(self):                                            #method of base class
         print("M5")
-class Lamborghini:
+class Lamborghini:                                              #derived class                                 
     def car(self):
         print("The bull of cars")
     def model(self):
