@@ -14,4 +14,4 @@ class Employee:                                                     #class name
 emp1=Employee(101,"akshay",50000,"HR dept")                         #object creation with parameterized constructor
 emp2=Employee(102,"Sanjay",65000,"Finance dept")                    #object creation with parameterized constructor
 emp1.display()                                                      #displaying employee data of emp1
-emp2.display()
+emp2.display()                                                      #displaying employee data of emp2                                                    
