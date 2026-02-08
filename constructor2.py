@@ -1,7 +1,7 @@
 #program using parameterized constructor.(Employee Data)
 
 print("***_____Employee Data_____***")
-class Employee:
+class Employee:                                                     #class name
     def __init__(self,empid,empname,salary,department):
         self.empid=empid
         self.empname=empname
