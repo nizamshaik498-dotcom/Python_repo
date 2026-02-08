@@ -11,7 +11,7 @@ class Employee:                                                     #class name
         print("Employee ID: ",self.empid)
         print("Employee Name: ",self.empname)
         print("Employee Salary: ",self.salary)
-emp1=Employee(101,"akshay",50000,"HR dept")
+emp1=Employee(101,"akshay",50000,"HR dept")                         #object creation with parameterized constructor
 emp2=Employee(102,"Sanjay",65000,"Finance dept")
 emp1.display()
 emp2.display()
