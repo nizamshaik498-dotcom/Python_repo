@@ -7,7 +7,7 @@ class Employee:                                                     #class name
         self.empname=empname
         self.salary=salary
         self.department=department
-    def display(self):
+    def display(self):                                              #method to display employee data
         print("Employee ID: ",self.empid)
         print("Employee Name: ",self.empname)
         print("Employee Salary: ",self.salary)
