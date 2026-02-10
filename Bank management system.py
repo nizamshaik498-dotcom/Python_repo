@@ -5,7 +5,7 @@ class BankAccount:                                                      #bank ac
         self.acname=acname
         self.acnum=acnum
         self.balance=balance
-    def display(self):
+    def display(self):                                                  #method created to display the account details
         print("account holder name: ",self.acname)
         print("account number: ",self.acnum)
         print("account balance: ",self.balance)
