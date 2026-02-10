@@ -1,6 +1,6 @@
 #program created using (oop) based for bank.
 
-class BankAccount:
+class BankAccount:                                                      #bank account class created
     def __init__(self,acname,acnum,balance):
         self.acname=acname
         self.acnum=acnum
