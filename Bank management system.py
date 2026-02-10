@@ -21,4 +21,4 @@ class BankAccount:                                                      #bank ac
 d=BankAccount("Alex",501250,50000)                                      #object created for the class BankAccount
 d.deposit(5000)                                                         #deposit method called to deposit the amount in the account
 d.withdraw(12000)                                                       #withdraw method called to withdraw the amount from the account
-d.display()
+d.display()                                                             #display method called to display the account details
