@@ -1,7 +1,7 @@
 #program created using (oop) based for bank.
 
 class BankAccount:                                                      #bank account class created
-    def __init__(self,acname,acnum,balance):
+    def __init__(self,acname,acnum,balance):                            #constructor created to initialize the attributes of the class
         self.acname=acname
         self.acnum=acnum
         self.balance=balance
