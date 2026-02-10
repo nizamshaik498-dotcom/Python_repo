@@ -18,7 +18,7 @@ class BankAccount:                                                      #bank ac
             print("Amount Withdrawn: ",amount)
         else:                                                           #if the amount to be withdrawn is greater than the balance in the account, then print insufficient balance
             print("Insufficient Balance")
-d=BankAccount("Alex",501250,50000)
+d=BankAccount("Alex",501250,50000)                                      #object created for the class BankAccount
 d.deposit(5000)
 d.withdraw(12000)
 d.display()
