@@ -9,7 +9,7 @@ class BankAccount:                                                      #bank ac
         print("account holder name: ",self.acname)
         print("account number: ",self.acnum)
         print("account balance: ",self.balance)
-    def deposit(self,amount):
+    def deposit(self,amount):                                           #method created to deposit the amount in the account
         self.balance=self.balance+amount
         print("Amount Deposited: ",amount)
     def withdraw(self,amount):
