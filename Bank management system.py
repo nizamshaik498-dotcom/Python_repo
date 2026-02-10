@@ -16,7 +16,7 @@ class BankAccount:                                                      #bank ac
         if amount<=self.balance:                                        #condition created to check whether the amount to be withdrawn is less than or equal to the balance in the account
             self.balance=self.balance-amount
             print("Amount Withdrawn: ",amount)
-        else:
+        else:                                                           #if the amount to be withdrawn is greater than the balance in the account, then print insufficient balance
             print("Insufficient Balance")
 d=BankAccount("Alex",501250,50000)
 d.deposit(5000)
