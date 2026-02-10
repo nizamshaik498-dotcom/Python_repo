@@ -12,7 +12,7 @@ class BankAccount:                                                      #bank ac
     def deposit(self,amount):                                           #method created to deposit the amount in the account
         self.balance=self.balance+amount
         print("Amount Deposited: ",amount)
-    def withdraw(self,amount):
+    def withdraw(self,amount):                                          #method created to withdraw the amount from the account
         if amount<=self.balance:
             self.balance=self.balance-amount
             print("Amount Withdrawn: ",amount)
