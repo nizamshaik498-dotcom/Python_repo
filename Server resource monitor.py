@@ -3,7 +3,7 @@
 cpu_capacity=input("Enter total CPU capacity: ")                    #value should be in percentage, e.g., 100%
 cpu_capacity=float(cpu_capacity.replace("%",""))                    #removing the percentage sign and converting to float for calculations
 cpu_usage=input("Enter CPU usage: ")                                #value should be in percentage, e.g., 75%
-cpu_usage=float(cpu_usage.replace("%",""))
+cpu_usage=float(cpu_usage.replace("%",""))                          #removing the percentage sign and converting to float for calculations
 total_memory=input("Enter total memory in GB: ")
 total_memory=float(total_memory.replace("GB",""))
 used_memory=input("Enter used memory in GB: ")
