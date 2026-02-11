@@ -9,7 +9,7 @@ total_memory=float(total_memory.replace("GB",""))
 used_memory=input("Enter used memory in GB: ")
 used_memory=float(used_memory.replace("GB",""))
 
-rem_cpu=cpu_capacity-cpu_usage
+rem_cpu=cpu_capacity-cpu_usage                                      #calculating remaining CPU by subtracting CPU usage from total CPU capacity
 print("Remaining CPU: ",rem_cpu)
 
 rem_mem=total_memory-used_memory
