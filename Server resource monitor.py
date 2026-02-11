@@ -1,6 +1,6 @@
 #program created for (server resource monitor).
 
-cpu_capacity=input("Enter total CPU capacity: ")
+cpu_capacity=input("Enter total CPU capacity: ")                    #value should be in percentage, e.g., 100%
 cpu_capacity=float(cpu_capacity.replace("%",""))
 cpu_usage=input("Enter CPU usage: ")
 cpu_usage=float(cpu_usage.replace("%",""))
