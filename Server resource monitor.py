@@ -6,7 +6,7 @@ cpu_usage=input("Enter CPU usage: ")                                #value shoul
 cpu_usage=float(cpu_usage.replace("%",""))                          #removing the percentage sign and converting to float for calculations
 total_memory=input("Enter total memory in GB: ")                    #value should be in GB, e.g., 32GB
 total_memory=float(total_memory.replace("GB",""))                   #removing the GB unit and converting to float for calculations
-used_memory=input("Enter used memory in GB: ")
+used_memory=input("Enter used memory in GB: ")                      #value should be in GB, e.g., 16GB
 used_memory=float(used_memory.replace("GB",""))
 
 rem_cpu=cpu_capacity-cpu_usage                                      #calculating remaining CPU by subtracting CPU usage from total CPU capacity
