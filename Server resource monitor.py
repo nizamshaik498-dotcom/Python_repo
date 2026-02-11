@@ -12,7 +12,7 @@ used_memory=float(used_memory.replace("GB",""))
 rem_cpu=cpu_capacity-cpu_usage                                      #calculating remaining CPU by subtracting CPU usage from total CPU capacity
 print("Remaining CPU: ",rem_cpu)
 
-rem_mem=total_memory-used_memory
+rem_mem=total_memory-used_memory                                    #calculating remaining memory by subtracting used memory from total memory
 print("Remaining Memory: ",rem_mem)
 
 if cpu_usage >=80 or used_memory>=16:
