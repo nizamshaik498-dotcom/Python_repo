@@ -1,4 +1,5 @@
 #program created for (server resource monitor).
+
 cpu_capacity=input("Enter total CPU capacity: ")
 cpu_capacity=float(cpu_capacity.replace("%",""))
 cpu_usage=input("Enter CPU usage: ")
