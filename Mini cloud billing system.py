@@ -1,6 +1,6 @@
 #program made for (mini cloud billing system) in (AWS) style.
 
-instances=int(input("Enter no.of.instances: "))                             
+instances=int(input("Enter no.of.instances: "))                             #entering number of instances                       
 inst_hours=8
 inst_cost=float(input("Enter cost per hour of instance: "))
 s3_storage=int(input("Enter the s3 storage in GB: "))
