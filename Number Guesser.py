@@ -1,7 +1,7 @@
 #program created using loop and if else contition for making (number guessing game).
 
-num=57
-attempts=5
+num=57                                                                      
+attempts=5                                                                      #assigning the number of attempts and the number to be guessed.
 
 while attempts>0:
     number=int(input("Enter any random number: "))
