@@ -8,7 +8,7 @@ s3_cost=2
 
 ec2_total=instances*inst_hours*inst_cost                                    #calculating total cost for ec2 instances
 s3_total=s3_storage*s3_cost                                                 #calculating total cost for s3 storage
-total_bill=ec2_total*s3_total
+total_bill=ec2_total*s3_total                                               #calculating total bill by multiplying ec2 total and s3 total
 
 if total_bill > 15000:
     discount=total_bill*0.10
