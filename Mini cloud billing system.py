@@ -7,7 +7,7 @@ s3_storage=int(input("Enter the s3 storage in GB: "))                       #ent
 s3_cost=2
 
 ec2_total=instances*inst_hours*inst_cost                                    #calculating total cost for ec2 instances
-s3_total=s3_storage*s3_cost
+s3_total=s3_storage*s3_cost                                                 #calculating total cost for s3 storage
 total_bill=ec2_total*s3_total
 
 if total_bill > 15000:
