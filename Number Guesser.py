@@ -12,7 +12,7 @@ while attempts>0:                                                               
         print("Too High")
     else:
         print("Too Low")
-    attempts-=1
+    attempts-=1                                                                 #decreasing the number of attempts by 1 after each guess.
     print("Attempts remaining: ",attempts)
 if attempts==0:
     print("Game Over")
