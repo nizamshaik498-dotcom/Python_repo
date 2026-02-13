@@ -3,7 +3,7 @@
 instances=int(input("Enter no.of.instances: "))                             #entering number of instances                       
 inst_hours=8                                                                
 inst_cost=float(input("Enter cost per hour of instance: "))                 #entering cost per hour of instance
-s3_storage=int(input("Enter the s3 storage in GB: "))
+s3_storage=int(input("Enter the s3 storage in GB: "))                       #entering s3 storage in GB
 s3_cost=2
 
 ec2_total=instances*inst_hours*inst_cost                                
