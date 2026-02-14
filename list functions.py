@@ -1,6 +1,6 @@
 #program created for showing the use of list functions.
 
-# 1 max() function.
+# 1 max() function.                                                             #max() function is used to find the maximum value from a list of values.
 prices=[159.4,120,80,70]
 new_price=max(prices)
 print("Max price: ",new_price)
