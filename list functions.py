@@ -12,7 +12,7 @@ new_price=min(prices)
 print("Min price: ",new_price)
 
 
-# 3 len() function.
+# 3 len() function.                                                     #len() function is used to find the length of a list or the number of items in a list.
 stock_1=[150.23]
 stock_2=[75.4,86.4,90.15]
 print("stock_1 length: ",len(stock_1))
