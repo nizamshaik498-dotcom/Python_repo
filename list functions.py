@@ -25,15 +25,7 @@ new_list=list(tup1)
 print(new_list)
 
 
-# 5 cmp() function.
-stocks_1=[150.23]
-stocks_2=[75.4,86.4,90.15]
-print(cmp(stocks_1,stocks_2))
-print(cmp(stocks_1,stocks_1))
-print(cmp(stocks_2,stocks_1))
-
-
-# 6 range() function
+# 5 range() function
 mylist=range(11)
 for list in mylist:
     print(list)
