@@ -19,7 +19,7 @@ print("stock_1 length: ",len(stock_1))
 print("stock_2 length: ",len(stock_2))
 
 
-# 4 list() function.
+# 4 list() function.                                                        #list() function is used to convert a tuple into a list.                                    
 tup1=(1,4,5)
 new_list=list(tup1)
 print(new_list)
