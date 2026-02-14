@@ -1,0 +1,39 @@
+#program created for showing the use of list functions.
+
+# 1 max() function.
+prices=[159.4,120,80,70]
+new_price=max(prices)
+print("Max price: ",new_price)
+
+
+# 2 min() function.
+prices=[159.4,120,80,70]
+new_price=min(prices)
+print("Min price: ",new_price)
+
+
+# 3 len() function.
+stock_1=[150.23]
+stock_2=[75.4,86.4,90.15]
+print("stock_1 length: ",len(stock_1))
+print("stock_2 length: ",len(stock_2))
+
+
+# 4 list() function.
+tup1=(1,4,5)
+new_list=list(tup1)
+print(new_list)
+
+
+# 5 cmp() function.
+stocks_1=[150.23]
+stocks_2=[75.4,86.4,90.15]
+print(cmp(stocks_1,stocks_2))
+print(cmp(stocks_1,stocks_1))
+print(cmp(stocks_2,stocks_1))
+
+
+# 6 range() function
+mylist=range(11)
+for list in mylist:
+    print(list)
