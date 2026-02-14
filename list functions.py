@@ -25,7 +25,7 @@ new_list=list(tup1)
 print(new_list)
 
 
-# 5 range() function
+# 5 range() function                                                    #range to print numbers from 0 to 10. range() function is used to generate a sequence of numbers.
 mylist=range(11)
 for list in mylist:
     print(list)
