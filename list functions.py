@@ -6,7 +6,7 @@ new_price=max(prices)
 print("Max price: ",new_price)
 
 
-# 2 min() function.
+# 2 min() function.                                                         #min() function is used to find the minimum value from a list of values.    
 prices=[159.4,120,80,70]
 new_price=min(prices)
 print("Min price: ",new_price)
