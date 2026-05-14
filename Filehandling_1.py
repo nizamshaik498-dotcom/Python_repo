@@ -2,3 +2,6 @@
 
 with open ("notes.txt","w") as file:
     file.write("Used writing method here")
+
+with open ("notes.txt","r") as file:
+    fileread=file.read()
