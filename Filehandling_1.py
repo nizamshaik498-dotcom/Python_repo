@@ -9,3 +9,5 @@ with open ("notes.txt","r") as file:
 with open("notes.txt","a") as file:
     file.write("\nUsed append method here")
 
+with open("notes.txt","r") as file:
+    print(file.read())
