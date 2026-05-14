@@ -5,3 +5,6 @@ with open ("notes.txt","w") as file:
 
 with open ("notes.txt","r") as file:
     fileread=file.read()
+
+with open("notes.txt","a") as file:
+    file.write("\nUsed append method here")
