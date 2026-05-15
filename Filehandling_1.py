@@ -24,3 +24,9 @@ with open("notes.txt","a") as file:
 
 with open ("notes.txt","r") as file:
     print(file.read())
+
+with open ("notes.txt","r") as file:
+    print(file.readline())
+
+with open ("notes.txt","r") as file:
+    print(file.readlines())
