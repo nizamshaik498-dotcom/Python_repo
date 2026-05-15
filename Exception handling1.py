@@ -6,3 +6,5 @@ try:
 except:
     print("Please enter valid input")
 
+finally:
+    print("Program execution completed")
