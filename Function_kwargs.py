@@ -1,6 +1,6 @@
 #Created a program using function keyword arguements(**Kwargs)
 
 def employee(**data):
-    print(data["role"],["salary"])
+    print(data["role"], data["salary"])
     print(data)
 employee(name="Alex" ,salary="150000",role="Gen ai engineer") 
