@@ -4,3 +4,7 @@ def hello():
     print("Good morning")
 def bye():
     print("Bye have a nice day")
+
+    if __name__ == "__main1.py__":
+        hello()
+        bye()
